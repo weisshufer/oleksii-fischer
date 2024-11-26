@@ -1,0 +1,14 @@
+{
+  "cssImports": {
+    "/home/runner/OF-Landing-Page/app/layout.tsx": [
+      "/home/runner/OF-Landing-Page/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}",
+      "/home/runner/OF-Landing-Page/app/globals.css"
+    ]
+  },
+  "cssModules": {
+    "/home/runner/OF-Landing-Page/app/page": [
+      "/home/runner/OF-Landing-Page/app/globals.css",
+      "/home/runner/OF-Landing-Page/node_modules/next/font/google/target.css?{\"path\":\"app/layout.tsx\",\"import\":\"Inter\",\"arguments\":[{\"subsets\":[\"latin\"]}],\"variableName\":\"inter\"}"
+    ]
+  }
+}
