@@ -1,7 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  output: "export",
+  experimental: {
+    serverActions: {
+      allowedOrigins: ["localhost:3000"],
+      bodySizeLimit: "2mb"
+    }
+  },
   webpack: (config) => {
     config.resolve.alias = {
       ...config.resolve.alias,
