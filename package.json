@@ -1,6 +1,7 @@
 {
   "name": "oleksii-fisher-landing",
   "version": "0.1.0",
+  "homepage": "alex.weisshufer.digital"
   "private": true,
   "scripts": {
     "dev": "next dev",
