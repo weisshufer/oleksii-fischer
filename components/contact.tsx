@@ -126,7 +126,7 @@ py-20 px-6 lg:px-8 bg-gradient-to-b from-gray-900 to-gray-800"
                   </Button>
                   {submissionStatus === "success" && (
                     <p className="text-green-400 mt-4">
-                      Your message has been sent to Telegram successfully!
+                      Your message has been sent successfully!
                     </p>
                   )}
                   {submissionStatus === "error" && (
@@ -158,10 +158,6 @@ py-20 px-6 lg:px-8 bg-gradient-to-b from-gray-900 to-gray-800"
                 <div className="flex items-center space-x-3 text-gray-300">
                   <MailIcon className="w-6 h-6 text-blue-400" />
                   <span>alex@weisshufer.digital</span>
-                </div>
-                <div className="flex items-center space-x-3 text-gray-300">
-                  <PhoneIcon className="w-6 h-6 text-blue-400" />
-                  <span>+49 123 456 7890</span>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-300">
                   <MapPinIcon className="w-6 h-6 text-blue-400" />
