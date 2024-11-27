@@ -1,3 +1,5 @@
+"use client";
+
 import { motion } from "framer-motion";
 import { Button } from "@/components/ui/button";
 import { Input } from "@/components/ui/input";
@@ -13,8 +15,7 @@ import { MailIcon, PhoneIcon, MapPinIcon } from "lucide-react";
 import { sendToTelegram } from "@/app/actions/sendToTelegram";
 import { useState } from "react";
 
-export default function Contact() {
-  "use server";
+export default async function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
