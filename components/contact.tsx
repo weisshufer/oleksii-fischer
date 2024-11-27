@@ -16,6 +16,7 @@ import { sendToTelegram } from "@/app/actions/sendToTelegram";
 import { useState } from "react";
 
 export default function Contact() {
+  "use server";
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
